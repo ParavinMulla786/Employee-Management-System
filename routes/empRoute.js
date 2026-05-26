@@ -11,6 +11,5 @@ router.get('/getAllEmp' , empController.getAllEmp)
 
 router.post('/createEmp', empController.createEmp)
 
-
-
+//export module
 module.exports = router
